@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:image" content="#">
+    <title>Rethinking Healthcare Payments</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" async defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+    </style>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">{alex le}</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about.html">about</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- Navbar ends -->
+    <section id="project-header" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-1"></div>
+                <div class="col-md-8 intro" data-aos="fade-right">
+                    <h1>Rethinking Healthcare Payments</h1>
+                    <br>
+                    <p class="section-intro">In Spring 2019, I had the opportunity to represent Temple University in The National Alexion Analytics Challenge. Out of 67 national teams, mine was fortunate to bring home <span class="highlight">the 1st prize of the Analytics track</span>.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section id="cover-photo">
+        <div class="container img-container">
+            <div class="row">
+                <div class="col-0 col-md-2"></div>
+                <div class="col-12 col-md-9">
+                    <img src="../media/alexion/alexion.png" alt="Autodesk University Reporting Dashboard" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-1">
+                </div>
+                <div class="col-12 col-md-8">
+                    <p class="section-title">Background</p>
+                    <p class="section-intro">Alexion is a global biopharmaceutical company focused on serving patients and families through the discovery, development and commercialization of life-changing therapies. To better deliver medical breakthrough to patients with rare
+                        diseases, Alexion wants student analysts to <span class="highlight">follow the money in healthcare to identify opportunities for payments and funding realignment</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-2">
+                </div>
+                <div class=" col-12 col-md-8 ">
+                    <p class="section-title " style="text-align:center">The Dataset</p>
+                    <p class="section-intro " style="text-align:center">Our team worked with Open Payments, a national disclosure program created by the Affordable Care Act and managed by the Centers for Medicare & Medicaid Services. The dataset shows the financial relationships between pharmaceutical
+                        companies and medical device industries, and physicians and teaching hospitals.
+                        <br><br>Applicable manufacturers and group purchasing organizations (GPOs) must submit their payments information to the program, which then categorizes these payments into three categories:
+                        <br><br>&#8226; General payments: payments that are not connected with research purposes.
+                        <br><br>&#8226; Research payments: payments that are made in connection with a research agreement or protocol.
+                        <br><br>&#8226; Physician ownership or investment interest information: ownership or investment interest a physician owns to an applicable manufacturer or GPO.
+                        <br><br>Our team decided to <span class="highlight">focus on general payments and research payments</span> for our analysis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-1">
+                </div>
+                <div class=" col-12 col-md-8 ">
+                    <p class="section-title ">Exploratory Analysis</p>
+                    <p class="section-intro ">We started off by individually using Excel, Tableau and MySQL to conduct analysis on Open Payments. Then, together as a team, we evaluated, analyzed the correlations, synthesized findings, and got to some useful conclusions:
+                        <br><br>&#8226; <span class="highlight">Oncology is overpaid</span> but <span class="highlight">some cancer types are underfunded</span> compared to the less important ones.
+                        <br><br>&#8226; <span class="highlight">Some rare diseases</span> are <span class="highlight">treated with less care than others with similar effect</span>.
+                        <br><br>&#8226; Manufacturers spent most of their <span class="highlight">general payments</span> on <span class="highlight">royalties for doctors and research hospitals</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-2"></div>
+                <div class="col-md-8 justify-content-center">
+                    <p class="section-title" style="text-align:center">Structuring</p>
+                    <p class="section-intro" style="text-align:center">Just the data itself cannot tells a persuasive story. Therefore, we also develop a <span class="highligh">structure</span> for our analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-2"></div>
+                <div class="col-12 col-md-8">
+                    <img src="../media/alexion/roadmap.jpg" alt="Approach" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-3">
+                </div>
+                <div class=" col-12 col-md-8 ">
+                    <p class="section-title" style="text-align:right">Second-round Analysis</p>
+                    <p class="section-intro " style="text-align:right">Each of us then took over one part of the big analysis, finding data that supported our arguments and hypotheses. I was in charged of analyzing how royalties and licensing fees were eating up the money portion dedicated to research.
+                        I also studied secondary sources such as newspaper, research articles and journals to dive deeper into why royalties exists as well as recommend strategies for Alexion to offset the negative impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-2"></div>
+                <div class="col-md-8 justify-content-center">
+                    <p class="section-title" style="text-align:center">Results</p>
+                    <p class="section-intro" style="text-align:center">After organizing and synthesizing the parts, I personally developed an infographic using Piktochart as one of the group's deliverables. I also aided my teammates in writing a one-page summary detailing our analysis, which can be found
+                        here.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <img src="../media/alexion/infographic.jpg" alt="Alexion Analysis infographic" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-3">
+                </div>
+                <div class=" col-12 col-md-8 ">
+                    <p class="section-title" style="text-align:right">What's Next?</p>
+                    <p class="section-intro " style="text-align:right">Currently, our analysis does not take into account patient demographics other than age and social factors, such as living conditions, so we hope to incorporate these into our revised version. We also want to dissect general payments
+                        a little further to understand the roles that other components besides royalties play within healthcare funding.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-1">
+                </div>
+                <div class=" col-12 col-md-8 ">
+                    <p class="section-title ">Reflection</p>
+                    <p class="section-intro ">Having competed the previous year but only won 2nd prize of the Visualization track, I was determined to place in the Analytics track this time. Therefore, not only that we spent more time messing around with data, but also on structuring
+                        the analysis into a story that engaged the audience, those who were not familiar with the dataset. As my partners and I all came from non-English speaking countries, we sometimes cannot help but keep rambling on when we want to
+                        convey an idea; thus, structuring did helped us a lot on clear, concise, and persuasive communication.
+                        <br><br>From a personal development standpoint, unlike other case competitions I have been through, this was my first time leading a team of introverts who had no connection with each other prior to the competition. As an introvert
+                        myself, I first struggled with starting conversations and created an environment which everyone felt comfortable. Therefore, I decided to take another approach: talking to each person individually and organizing team lunches for
+                        the team to bond outside of meetings. Doing so allowed the team dynamics to increase, contributing to us collaborating well and winning.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <p>© 2019 Designed & Coded by Alex Le</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

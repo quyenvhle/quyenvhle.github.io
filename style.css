@@ -1,0 +1,169 @@
+body {
+    background: #feffff;
+    font-family: 'Open Sans', san-serif;
+}
+
+.navbar {
+    padding-top: 3rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    color: #000000;
+}
+
+#intro {
+    margin-top: 4rem;
+}
+
+#projects {
+    margin-top: 6.5rem;
+}
+
+h1,
+h5 {
+    font-weight: 300;
+}
+
+.card-title {
+    color: black;
+}
+
+.card {
+    margin-top: 1.5rem;
+    border: none;
+    text-align: left;
+}
+
+.card-img-top {
+    background: #f8f8f8;
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project-tag {
+    color: grey;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+#competitions {
+    margin-top: 7rem;
+}
+
+#side-projects {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 1.25rem;
+}
+
+.section-intro {
+    color: #808080;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+#about {
+    margin-top: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+#footer {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+.contact-items {
+    float: left;
+    margin-right: 2rem;
+    font-weight: 300;
+}
+
+.contact-items a:hover {
+    color: #000000;
+}
+
+.contact-items a {
+    color: #0696D7;
+}
+
+#propic {
+    max-width: 100%;
+    padding-left: 1rem;
+}
+
+.about-detailed {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    text-align: justify;
+}
+
+#project-cover img {
+    align-content: center;
+}
+
+.highlight {
+    color: #0696D7;
+}
+
+#cover-photo {
+    margin-bottom: 3rem;
+}
+
+#problem {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#project-header {
+    margin-top: 3rem;
+}
+
+
+/*media queries*/
+
+
+/*small*/
+
+@media (max-width: 762px) {
+    #projects,
+    #competitions,
+    #side-projects {
+        margin-top: 2rem;
+    }
+    #intro {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    #navbar {
+        margin-top: 1rem;
+    }
+    #propic {
+        padding-left: 0;
+    }
+    .about-detailed {
+        padding-left: 0;
+    }
+}
