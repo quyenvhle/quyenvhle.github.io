@@ -157,13 +157,22 @@ h5 {
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
-    #navbar {
-        margin-top: 1rem;
+    .navbar {
+        padding-top: 1rem;
     }
     #propic {
         padding-left: 0;
     }
     .about-detailed {
         padding-left: 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    .contact-items {
+        margin-right: 1.5rem;
     }
 }
