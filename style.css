@@ -51,15 +51,12 @@ h5 {
 
 .project-tag {
     color: grey;
+    font-weight: 300;
+    font-size: 0.8rem;
 }
 
 .card-title {
     font-weight: 400;
-}
-
-.card-text {
-    font-weight: 300;
-    font-size: 0.8rem;
 }
 
 #competitions {
@@ -139,6 +136,14 @@ h5 {
 
 #project-header {
     margin-top: 3rem;
+}
+
+.card-text {
+    margin-top: -0.5rem;
+    color: #2E2E2E;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
 }
 
 
