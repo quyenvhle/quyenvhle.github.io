@@ -73,7 +73,7 @@ h5 {
 }
 
 .section-intro {
-    color: #808080;
+    color: #2E2E2E;
     font-weight: 300;
     font-size: 0.9rem;
     line-height: 1.4rem;
@@ -144,6 +144,31 @@ h5 {
     font-weight: 400;
     font-size: 0.85rem;
     line-height: 1.4rem;
+}
+
+.arrow,
+.arrow a {
+    color: grey;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+#archived-projects {
+    padding-bottom: 1.5rem;
+}
+
+#archived {
+    margin-bottom: 4rem;
+}
+
+.archived,
+.archived a {
+    font-weight: 300;
+    color: #0696D7;
+}
+
+.archived a:hover {
+    color: #000000;
 }
 
 
