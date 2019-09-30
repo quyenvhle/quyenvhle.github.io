@@ -73,10 +73,11 @@ h5 {
 }
 
 .section-intro {
-    color: #2E2E2E;
+    color: #696969;
     font-weight: 300;
     font-size: 0.9rem;
     line-height: 1.4rem;
+    font-family: 'Lora', serif;
 }
 
 #about {
