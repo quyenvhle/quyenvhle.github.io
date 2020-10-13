@@ -1,6 +1,6 @@
 body {
     background: #feffff;
-    font-family: 'Open Sans', san-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .navbar {
@@ -53,6 +53,7 @@ h5 {
     color: grey;
     font-weight: 300;
     font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card-title {
@@ -69,15 +70,16 @@ h5 {
 }
 
 .section-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .section-intro {
-    color: #696969;
+    color: #606060;
     font-weight: 300;
     font-size: 0.9rem;
     line-height: 1.4rem;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #about {
@@ -97,6 +99,7 @@ h5 {
     float: left;
     margin-right: 2rem;
     font-weight: 300;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact-items a:hover {
@@ -149,9 +152,13 @@ h5 {
 
 .arrow,
 .arrow a {
-    color: grey;
+    color: #0696D7;
     font-weight: 300;
     font-size: 0.8rem;
+}
+
+.arrow a:hover {
+    color: #000000;
 }
 
 #archived-projects {
@@ -172,6 +179,12 @@ h5 {
     color: #000000;
 }
 
+img {
+    transition: 0.25s;
+}
+img:hover {
+    transform: scale(1.02);
+}
 
 /*media queries*/
 
